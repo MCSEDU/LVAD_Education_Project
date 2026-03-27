@@ -1,0 +1,181 @@
+{
+  "quizMeta": {
+    "tier": 1,
+    "tierTitle": "Patient & Family Education",
+    "difficulty": "Foundational",
+    "passMark": 80,
+    "totalQuestions": 10,
+    "estimatedMinutes": 15,
+    "audience": ["LVAD Patients", "Family Members", "Caregivers"],
+    "version": "1.0",
+    "lastUpdated": "2026-03-27",
+    "reviewedBy": "VAD Education Team"
+  },
+  "questions": [
+    {
+      "id": "t1-q1",
+      "questionNumber": 1,
+      "question": "What does LVAD stand for?",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "topic": "Device Basics",
+      "options": [
+        "Left Ventricular Assist Device",
+        "Lower Vascular Arterial Duct",
+        "Left Valve Arterial Device",
+        "Large Ventricular Artery Duct"
+      ],
+      "correctIndex": 0,
+      "explanation": "LVAD stands for Left Ventricular Assist Device. It is a mechanical pump surgically implanted to help the left ventricle pump blood to the rest of the body when the heart is too weak to do so on its own.",
+      "referenceModule": "tier1-intro"
+    },
+    {
+      "id": "t1-q2",
+      "questionNumber": 2,
+      "question": "The LVAD completely replaces the heart and the heart no longer beats after implantation.",
+      "type": "true-false",
+      "difficulty": "easy",
+      "topic": "Device Basics",
+      "options": ["True", "False"],
+      "correctIndex": 1,
+      "explanation": "FALSE. The LVAD assists or supports the heart — it does not replace it. Your own heart continues to beat alongside the device.",
+      "referenceModule": "tier1-intro"
+    },
+    {
+      "id": "t1-q3",
+      "questionNumber": 3,
+      "question": "Which external component of the LVAD system powers the implanted pump?",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "topic": "Equipment",
+      "options": [
+        "The driveline cable",
+        "Rechargeable batteries connected to the system controller",
+        "A wall plug connected directly to the pump",
+        "A wireless charging pad worn on the chest"
+      ],
+      "correctIndex": 1,
+      "explanation": "Rechargeable batteries connect to the system controller, which powers the implanted pump through the driveline. You must always carry charged batteries to keep the pump running.",
+      "referenceModule": "tier1-intro"
+    },
+    {
+      "id": "t1-q4",
+      "questionNumber": 4,
+      "question": "How often should you inspect your driveline exit site?",
+      "type": "multiple-choice",
+      "difficulty": "easy",
+      "topic": "Driveline Care",
+      "options": [
+        "Once a week during your scheduled dressing change",
+        "Only when you notice pain or discomfort",
+        "Every single day",
+        "Twice a month"
+      ],
+      "correctIndex": 2,
+      "explanation": "Daily inspection of the driveline exit site is essential to catch early signs of infection such as redness, swelling, drainage, or warmth before they become serious.",
+      "referenceModule": "tier1-driveline"
+    },
+    {
+      "id": "t1-q5",
+      "questionNumber": 5,
+      "question": "You notice yellow-green drainage from your driveline exit site. What should you do?",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "topic": "Driveline Care",
+      "options": [
+        "Apply extra gauze and monitor for 3 days",
+        "Clean it more frequently at home",
+        "Contact your VAD coordinator immediately",
+        "Wait until your next scheduled clinic appointment"
+      ],
+      "correctIndex": 2,
+      "explanation": "Yellow-green or foul-smelling drainage is a warning sign of infection. Contact your VAD coordinator immediately. Driveline infections can spread to the pump if not treated promptly.",
+      "referenceModule": "tier1-driveline"
+    },
+    {
+      "id": "t1-q6",
+      "questionNumber": 6,
+      "question": "Your LVAD controller is alarming with a continuous red alarm. What is the MOST important first action?",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "topic": "Alarm Response",
+      "options": [
+        "Silence the alarm and continue your activity",
+        "Turn off the controller and switch to the backup",
+        "Assess how you feel and call 911 or your VAD coordinator immediately",
+        "Wait 10 minutes to see if the alarm stops on its own"
+      ],
+      "correctIndex": 2,
+      "explanation": "A red alarm means there is an immediate hazard. Assess how you feel, then call 911 or your VAD coordinator right away. NEVER silence a red alarm without taking action — red alarms indicate the pump may not be working properly.",
+      "referenceModule": "tier1-alarms"
+    },
+    {
+      "id": "t1-q7",
+      "questionNumber": 7,
+      "question": "When changing your LVAD controller batteries, which step is CRITICAL to always follow?",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "topic": "Equipment Safety",
+      "options": [
+        "Turn off the controller completely before changing batteries",
+        "Always connect the new battery BEFORE disconnecting the old one",
+        "Change both batteries at the exact same time",
+        "Submerge batteries in water before use to check for leaks"
+      ],
+      "correctIndex": 1,
+      "explanation": "You must ALWAYS connect a new fully charged battery before disconnecting the old one. Disconnecting both batteries simultaneously — even briefly — will stop the pump and could be life-threatening. The controller needs continuous power at all times.",
+      "referenceModule": "tier1-equipment"
+    },
+    {
+      "id": "t1-q8",
+      "questionNumber": 8,
+      "question": "Which of the following activities is generally SAFE for most LVAD patients?",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "topic": "Daily Living",
+      "options": [
+        "Swimming and full submersion in water",
+        "Contact sports such as football or rugby",
+        "Light walking and supervised cardiac rehabilitation exercise",
+        "Using a hot tub or jacuzzi"
+      ],
+      "correctIndex": 2,
+      "explanation": "Light walking and supervised cardiac rehabilitation are generally safe and encouraged for LVAD patients. Water submersion is strictly prohibited as it can damage the controller and driveline. Contact sports risk traumatic driveline dislodgement. Always follow your VAD team's specific activity guidelines.",
+      "referenceModule": "tier1-daily-living"
+    },
+    {
+      "id": "t1-q9",
+      "questionNumber": 9,
+      "question": "You are at home and the power goes out. Your LVAD batteries are at 20%. What should you do FIRST?",
+      "type": "multiple-choice",
+      "difficulty": "medium",
+      "topic": "Emergency Response",
+      "options": [
+        "Wait for the power to come back on before doing anything",
+        "Immediately switch to your backup batteries and call your VAD coordinator",
+        "Turn off your LVAD controller to conserve power",
+        "Drive yourself to the hospital immediately without calling anyone"
+      ],
+      "correctIndex": 1,
+      "explanation": "Switch to your fully charged backup batteries immediately to ensure continuous pump function. Then contact your VAD coordinator to report the situation. Never turn off the controller. Always keep backup batteries fully charged and accessible at home.",
+      "referenceModule": "tier1-emergency"
+    },
+    {
+      "id": "t1-q10",
+      "questionNumber": 10,
+      "question": "Which of the following statements about anticoagulation (blood thinners) for LVAD patients is TRUE?",
+      "type": "multiple-choice",
+      "difficulty": "hard",
+      "topic": "Medications",
+      "options": [
+        "Blood thinners are optional and only taken if you feel unwell",
+        "You can stop taking warfarin once your INR is stable for 1 month",
+        "Blood thinners must be taken every day as prescribed to prevent clots in the pump",
+        "Aspirin alone is sufficient anticoagulation for all LVAD patients"
+      ],
+      "correctIndex": 2,
+      "explanation": "Anticoagulation is mandatory and lifelong for LVAD patients. Blood clots can form inside the pump causing pump thrombosis or stroke. Warfarin (and often aspirin) must be taken exactly as prescribed, with regular INR monitoring. Never stop blood thinners without your VAD team's instruction.",
+      "referenceModule": "tier1-medications"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Tier 3 Content Brief (ICU/ED)
 
-Title: [To be filled]
+Title: Emergency LVAD Protocols for ICU/ED Nurses
 
 Audience: Tier 3 – Bedside ICU/ED nurses
 

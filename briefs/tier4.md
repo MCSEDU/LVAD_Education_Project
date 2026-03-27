@@ -1,6 +1,6 @@
 # Tier 4 Content Brief (Clinicians)
 
-Title: [To be filled]
+Title: Advanced LVAD Management for Coordinators
 
 Audience: Tier 4 – LVAD coordinators/clinicians
 

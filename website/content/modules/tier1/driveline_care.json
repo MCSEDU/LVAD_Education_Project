@@ -1,0 +1,135 @@
+{
+  "moduleId": "tier1-driveline",
+  "tier": 1,
+  "title": "Driveline Care",
+  "subtitle": "Keeping Your Exit Site Safe",
+  "description": "Step-by-step instructions for daily driveline inspection and dressing changes.",
+  "estimatedMinutes": 45,
+  "passMark": 80,
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Why Driveline Care Matters",
+      "type": "callout",
+      "calloutType": "warning",
+      "content": "The driveline exit site is the most common source of infection in LVAD patients. Proper daily care significantly reduces this risk and protects your health."
+    },
+    {
+      "id": "s2",
+      "title": "Daily Inspection Checklist",
+      "type": "checklist",
+      "items": [
+        "Check exit site for redness, swelling, or warmth",
+        "Look for drainage — note color, amount, and smell",
+        "Ensure driveline is secured and not pulling",
+        "Verify dressing is clean, dry, and intact",
+        "Check for any new pain at the exit site"
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Dressing Change Steps",
+      "type": "steps",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Gather Supplies",
+          "content": "Collect: sterile gloves, chlorhexidine swabs, sterile gauze (2x2), split gauze, medical tape, and a clean surface."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Wash Your Hands",
+          "content": "Wash hands thoroughly with soap and water for at least 20 seconds, or use alcohol-based hand sanitizer."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Remove Old Dressing",
+          "content": "Carefully peel away old dressing starting from the edges. Never pull on the driveline itself."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Inspect the Site",
+          "content": "Examine exit site carefully. Note any changes from prior dressing change. Take a photo if you see something unusual."
+        },
+        {
+          "stepNumber": 5,
+          "title": "Clean the Site",
+          "content": "Using chlorhexidine swab, clean in a circular motion starting at the exit site and moving outward. Allow to dry completely (30 seconds)."
+        },
+        {
+          "stepNumber": 6,
+          "title": "Apply New Dressing",
+          "content": "Place split gauze under and around the driveline. Cover with a 2x2 sterile gauze pad. Secure firmly with medical tape."
+        },
+        {
+          "stepNumber": 7,
+          "title": "Secure the Driveline",
+          "content": "Ensure driveline is anchored to prevent pulling. Use the stabilization device as shown by your VAD coordinator."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Signs of Infection — Call Your Coordinator",
+      "type": "alert",
+      "calloutType": "danger",
+      "items": [
+        "Increasing redness or redness spreading beyond the exit site",
+        "Yellow, green, or foul-smelling drainage",
+        "Fever above 100.4°F (38°C)",
+        "Increasing pain or tenderness at site",
+        "Site feels warm to the touch",
+        "Swelling or hardening under the skin along driveline path"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "How often should you inspect your driveline exit site?",
+      "type": "multiple-choice",
+      "options": [
+        "Once a week",
+        "Only when changing the dressing",
+        "Every day",
+        "When you feel pain"
+      ],
+      "correctIndex": 2,
+      "explanation": "Daily inspection of the driveline exit site is essential to catch early signs of infection or problems."
+    },
+    {
+      "id": "q2",
+      "question": "What should you do if you notice green drainage from the exit site?",
+      "type": "multiple-choice",
+      "options": [
+        "Apply extra tape and monitor for a week",
+        "Call your VAD coordinator immediately",
+        "Clean it more frequently yourself",
+        "Wait to see if it resolves on its own"
+      ],
+      "correctIndex": 1,
+      "explanation": "Green, yellow, or foul-smelling drainage is a sign of infection. Always contact your VAD coordinator immediately."
+    },
+    {
+      "id": "q3",
+      "question": "When cleaning the exit site, you should clean from the outside moving inward.",
+      "type": "true-false",
+      "options": ["True", "False"],
+      "correctIndex": 1,
+      "explanation": "False. You should clean starting AT the exit site and move outward in a circular motion — this prevents introducing bacteria toward the wound."
+    },
+    {
+      "id": "q4",
+      "question": "What temperature indicates a fever you should report?",
+      "type": "multiple-choice",
+      "options": [
+        "99.0°F (37.2°C)",
+        "100.4°F (38°C)",
+        "101.5°F (38.6°C)",
+        "102°F (38.9°C)"
+      ],
+      "correctIndex": 1,
+      "explanation": "A temperature of 100.4°F (38°C) or above is considered a fever and should be reported to your VAD team."
+    }
+  ]
+}

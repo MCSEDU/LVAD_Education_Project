@@ -3,19 +3,24 @@ import { Card, CardContent, Typography, Button } from '@mui/material';
 
 const tiers = [
   {
-    title: 'Beginner',
-    description: 'Introduction to LVADs and their purpose.',
-    link: '/beginner',
+    title: 'Tier 1',
+    description: 'Patient & family LVAD education brief.',
+    link: '/tier1',
   },
   {
-    title: 'Intermediate',
-    description: 'In-depth knowledge about LVAD mechanisms and features.',
-    link: '/intermediate',
+    title: 'Tier 2',
+    description: 'Bedside nursing & clinical staff LVAD education brief.',
+    link: '/tier2',
   },
   {
-    title: 'Advanced',
-    description: 'Comprehensive understanding of LVAD complications and management.',
-    link: '/advanced',
+    title: 'Tier 3',
+    description: 'Advanced practice provider LVAD education brief.',
+    link: '/tier3',
+  },
+  {
+    title: 'Tier 4',
+    description: 'Specialist & physician LVAD education brief.',
+    link: '/tier4',
   },
 ];
 

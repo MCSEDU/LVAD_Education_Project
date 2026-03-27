@@ -1,0 +1,142 @@
+{
+  "moduleId": "tier2-alarms",
+  "tier": 2,
+  "title": "LVAD Alarm Management",
+  "subtitle": "Clinical Response Protocols",
+  "description": "Comprehensive alarm interpretation and clinical decision-making for bedside nursing staff.",
+  "estimatedMinutes": 60,
+  "passMark": 85,
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Alarm Priority System",
+      "type": "table",
+      "headers": ["Priority", "Color", "Sound", "Clinical Meaning", "Response Time"],
+      "rows": [
+        ["Advisory", "Yellow", "Intermittent beeps", "Attention needed, not immediately life-threatening", "Within 15 minutes"],
+        ["Hazard", "Red", "Continuous alarm", "Immediate danger to patient", "Immediately"],
+        ["System", "White/Gray", "Variable", "Device status information", "Per protocol"]
+      ]
+    },
+    {
+      "id": "s2",
+      "title": "Common Yellow Alarms",
+      "type": "accordion",
+      "items": [
+        {
+          "title": "Low Flow Advisory",
+          "content": "Flow <2.0 L/min sustained. Assess volume status, patient position, MAP. Check for suction event. Review recent fluid balance."
+        },
+        {
+          "title": "Low Battery Advisory",
+          "content": "Battery life <30 minutes remaining on one or both batteries. Immediate battery exchange or connect to power module."
+        },
+        {
+          "title": "Low Speed Advisory",
+          "content": "RPM below prescribed minimum. Assess controller integrity, driveline connection, and power source."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "Red Alarm Response Protocol",
+      "type": "steps",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Assess Patient",
+          "content": "Immediately assess patient responsiveness, perfusion status, and vital signs. Do NOT silence alarm without VAD team notification."
+        },
+        {
+          "stepNumber": 2,
+          "title": "Call VAD Team",
+          "content": "Contact VAD coordinator or on-call physician immediately. Describe alarm type, patient status, and current device parameters."
+        },
+        {
+          "stepNumber": 3,
+          "title": "Check Connections",
+          "content": "Verify all connections: batteries to controller, controller to driveline. Ensure no disconnections or kinks."
+        },
+        {
+          "stepNumber": 4,
+          "title": "Document Parameters",
+          "content": "Record: flow, speed (RPM), pulsatility index (PI), power consumption, and MAP. Time-stamp all interventions."
+        },
+        {
+          "stepNumber": 5,
+          "title": "Controller Exchange",
+          "content": "If directed by VAD team, perform emergency controller exchange per your institution's protocol. Have backup controller at bedside at all times."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Suction Event Recognition",
+      "type": "callout",
+      "calloutType": "warning",
+      "content": "A suction event occurs when the LVAD inlet is sucked against the ventricular wall due to hypovolemia, excessive pump speed, or RV failure. Signs include: fluctuating flow, low PI, intermittent low-flow alarms. Treatment: fluid bolus 250–500mL, speed reduction (per VAD team), position change to left lateral decubitus."
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "A patient's LVAD is alarming red continuously. What is your FIRST action?",
+      "type": "multiple-choice",
+      "options": [
+        "Silence the alarm and assess the controller",
+        "Assess patient status and call the VAD team immediately",
+        "Check the battery connections",
+        "Document the event in the chart first"
+      ],
+      "correctIndex": 1,
+      "explanation": "Patient assessment and immediate VAD team notification is always the first priority for a red hazard alarm. Never silence a red alarm without clinical evaluation."
+    },
+    {
+      "id": "q2",
+      "question": "A suction event is most likely caused by which of the following?",
+      "type": "multiple-choice",
+      "options": [
+        "Hypertension and high afterload",
+        "Hypovolemia or excessive pump speed",
+        "Atrial fibrillation",
+        "Driveline infection"
+      ],
+      "correctIndex": 1,
+      "explanation": "Suction events most commonly result from hypovolemia (low preload), excessive pump speed, or right ventricular failure reducing flow to the left ventricle."
+    },
+    {
+      "id": "q3",
+      "question": "What flow level triggers a Low Flow Advisory alarm?",
+      "type": "multiple-choice",
+      "options": [
+        "Less than 4.0 L/min",
+        "Less than 3.0 L/min",
+        "Less than 2.0 L/min",
+        "Less than 1.5 L/min"
+      ],
+      "correctIndex": 2,
+      "explanation": "A sustained flow less than 2.0 L/min typically triggers a Low Flow Advisory (yellow) alarm requiring clinical assessment."
+    },
+    {
+      "id": "q4",
+      "question": "When is it acceptable to silence a red hazard alarm without contacting the VAD team?",
+      "type": "true-false",
+      "options": ["True — if the patient appears comfortable", "False — never acceptable"],
+      "correctIndex": 1,
+      "explanation": "It is never acceptable to silence a red hazard alarm without contacting the VAD team and performing a full clinical assessment."
+    },
+    {
+      "id": "q5",
+      "question": "Initial treatment for a suspected suction event includes:",
+      "type": "multiple-choice",
+      "options": [
+        "Increase pump speed immediately",
+        "Administer diuretics",
+        "Fluid bolus and position change to left lateral decubitus",
+        "Disconnect controller and reconnect"
+      ],
+      "correctIndex": 2,
+      "explanation": "Initial management of a suction event includes a fluid bolus (250–500mL), reducing pump speed per VAD team guidance, and positioning the patient left lateral decubitus to increase preload."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+.container { padding: 1rem; background: #f8fafc; min-height: 100vh; }
+.breadcrumb { margin: 1rem 0; display: flex; align-items: center; gap: 0.5rem; font-size: 0.9rem; }
+.breadcrumb button { background: none; border: none; color: #2563eb; cursor: pointer; padding: 0; }
+.content { background: white; padding: 1.25rem; border-radius: 10px; box-shadow: 0 3px 10px rgba(0,0,0,0.07); }
+.actions { margin-top: 1rem; }
+.actions button { border: 1px solid #2563eb; color: #2563eb; padding: 0.5rem 1rem; border-radius: 6px; background: white; cursor: pointer; }

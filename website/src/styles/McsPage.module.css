@@ -1,0 +1,223 @@
+/* MCS Device Pages Stylesheet */
+
+.pageContainer {
+  min-height: 100vh;
+  background: #f8fafc;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+/* ── Page Header ─────────────────────────────────────────── */
+.pageHeader {
+  color: white;
+  padding: 3rem 2rem 2.5rem;
+  text-align: center;
+  position: relative;
+}
+.pageHeader h1 {
+  font-size: 2.25rem;
+  margin: 0.5rem 0 0.25rem;
+}
+.pageHeader p {
+  margin: 0.25rem 0;
+  opacity: 0.9;
+  font-size: 1.1rem;
+}
+.headerSubtitle {
+  max-width: 600px;
+  margin: 1rem auto 0 !important;
+  font-size: 0.95rem !important;
+  opacity: 0.85 !important;
+  line-height: 1.5;
+}
+.headerIcon {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.backButton {
+  position: absolute;
+  top: 1.25rem;
+  left: 1.25rem;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.4);
+  padding: 0.4rem 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  transition: background 0.2s;
+}
+.backButton:hover {
+  background: rgba(255,255,255,0.35);
+}
+
+/* ── Tier Selector ───────────────────────────────────────── */
+.tierSelector {
+  background: white;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.tierSelector p {
+  margin: 0;
+  font-weight: 600;
+  color: #374151;
+  white-space: nowrap;
+}
+.tierButtons {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.tierBtn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: 2px solid #e5e7eb;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.2s;
+  min-width: 100px;
+}
+.tierBtn:hover {
+  border-color: #6366f1;
+  background: #f5f3ff;
+}
+.tierBtnActive {
+  border-color: #4f46e5;
+  background: #eef2ff;
+}
+.tierBtnLabel {
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #1f2937;
+}
+.tierBtnSub {
+  font-size: 0.72rem;
+  color: #6b7280;
+}
+
+/* ── Device Grid ─────────────────────────────────────────── */
+.mainContent {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.deviceGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+@media (min-width: 768px) {
+  .deviceGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── Device Card ─────────────────────────────────────────── */
+.deviceCard {
+  background: white;
+  border-radius: 12px;
+  border-top: 4px solid #ccc;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.deviceCard:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+.deviceCardHeader {
+  padding: 1.25rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.deviceIcon {
+  font-size: 2.5rem;
+  flex-shrink: 0;
+}
+.deviceCardHeader h2 {
+  margin: 0 0 0.15rem;
+  font-size: 1.4rem;
+}
+.deviceFullName {
+  margin: 0 0 0.5rem;
+  font-size: 0.82rem;
+  color: #6b7280;
+}
+.deviceTag {
+  display: inline-block;
+  color: white;
+  font-size: 0.72rem;
+  padding: 0.2rem 0.6rem;
+  border-radius: 999px;
+}
+.deviceCardBody {
+  padding: 1rem 1.25rem;
+  flex: 1;
+}
+.deviceDescription {
+  color: #374151;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin: 0 0 1rem;
+}
+.indicationsSection h4 {
+  margin: 0 0 0.4rem;
+  font-size: 0.85rem;
+  color: #111827;
+}
+.indicationsSection ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+.indicationsSection li {
+  font-size: 0.83rem;
+  color: #4b5563;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+/* ── Device Card Footer Buttons ──────────────────────────── */
+.deviceCardFooter {
+  padding: 1rem 1.25rem;
+  border-top: 1px solid #f3f4f6;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.introBtn {
+  background: white;
+  border: 2px solid;
+  padding: 0.5rem;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+.introBtn:hover {
+  opacity: 0.85;
+}
+.moduleBtn,
+.quizBtn {
+  color: white;
+  border: none;
+  padding: 0.55rem;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: opacity 0.2s;
+}
+.moduleBtn:hover,
+.quizBtn:hover {
+  opacity: 0.88;
+}

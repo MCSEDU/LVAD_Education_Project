@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from '../styles/globals.module.css';
+import styles from '../styles/McsCard.module.css';
 
-export default function McsCard({ title, tag, items, onLearnMore }) {
+export default function McsCard({ title, tag, items, href }) {
   return (
     <article className={styles.card} aria-label={title}>
       <header className={styles.cardHeader}>
@@ -15,9 +15,9 @@ export default function McsCard({ title, tag, items, onLearnMore }) {
           ))}
         </ul>
         <div className={styles.ctaRow}>
-          <button className={styles.primaryButton} onClick={onLearnMore}>
+          <a className={styles.primaryButton} href={href}>
             Learn More
-          </button>
+          </a>
         </div>
       </div>
     </article>

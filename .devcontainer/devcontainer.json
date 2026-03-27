@@ -1,0 +1,1 @@
+{\n  "name": "My Project",\n  "version": "0.1.0",\n  "settings": {\n    "terminal.integrated.shell.linux": "/bin/bash"\n  },\n  "extensions": [\n    "ms-azuretools.vscode-docker",\n    "dbaeumer.vscode-eslint",\n    "esbenp.prettier-vscode"\n  ],\n  "postCreateCommand": "npm install",\n  "remoteUser": "vscode"\n}

@@ -1,0 +1,120 @@
+{
+  "moduleId": "tier1-intro",
+  "tier": 1,
+  "title": "What is an LVAD?",
+  "subtitle": "Understanding Your Heart Device",
+  "description": "Learn the basics of Left Ventricular Assist Device therapy, how it works, and what to expect.",
+  "estimatedMinutes": 30,
+  "passMark": 80,
+  "sections": [
+    {
+      "id": "s1",
+      "title": "Introduction to LVAD",
+      "type": "text",
+      "content": "A Left Ventricular Assist Device (LVAD) is a mechanical pump surgically implanted to help your heart pump blood throughout your body. It supports — but does not replace — your heart.",
+      "image": "/assets/images/lvad-overview.png",
+      "imageAlt": "Diagram showing LVAD placement in the chest"
+    },
+    {
+      "id": "s2",
+      "title": "How Blood Flows",
+      "type": "text",
+      "content": "Blood flows from the left ventricle into the LVAD pump, which then pushes it into the aorta and out to your body. The pump runs continuously, powered by batteries you carry with you.",
+      "image": "/assets/images/blood-flow.png",
+      "imageAlt": "Blood flow diagram through LVAD"
+    },
+    {
+      "id": "s3",
+      "title": "Types of LVAD Devices",
+      "type": "list",
+      "content": "Common LVAD devices include:",
+      "items": [
+        "HeartMate 3 — Current generation, centrifugal flow, with artificial pulse",
+        "HeartWare HVAD — No longer implanted but still in use in existing patients",
+        "Future devices — Clinical trials ongoing for next-generation pumps"
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "Life Expectations",
+      "type": "callout",
+      "calloutType": "info",
+      "content": "Most patients report improved energy and quality of life within weeks of LVAD implant. However, you will always carry external equipment including a controller and batteries."
+    },
+    {
+      "id": "s5",
+      "title": "Key Equipment Components",
+      "type": "list",
+      "content": "Your LVAD system includes:",
+      "items": [
+        "The implanted pump — inside your chest",
+        "Driveline — cable connecting pump to external controller",
+        "System controller — manages and monitors the pump",
+        "Batteries (x2) — power the controller",
+        "Power module — for charging and AC power use"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "question": "What does LVAD stand for?",
+      "type": "multiple-choice",
+      "options": [
+        "Left Ventricular Assist Device",
+        "Large Vascular Arterial Duct",
+        "Left Valve Arterial Device",
+        "Lower Ventricular Artery Duct"
+      ],
+      "correctIndex": 0,
+      "explanation": "LVAD stands for Left Ventricular Assist Device — a mechanical pump that helps the heart's left ventricle pump blood."
+    },
+    {
+      "id": "q2",
+      "question": "Where does blood enter the LVAD?",
+      "type": "multiple-choice",
+      "options": [
+        "The right ventricle",
+        "The left ventricle",
+        "The aorta",
+        "The pulmonary artery"
+      ],
+      "correctIndex": 1,
+      "explanation": "Blood enters the LVAD from the left ventricle, and is then pumped out into the aorta."
+    },
+    {
+      "id": "q3",
+      "question": "The LVAD completely replaces the heart's function.",
+      "type": "true-false",
+      "options": ["True", "False"],
+      "correctIndex": 1,
+      "explanation": "False. The LVAD assists or supports the heart — it does not replace it. Your heart continues to work alongside the device."
+    },
+    {
+      "id": "q4",
+      "question": "Which of the following is the current generation LVAD device?",
+      "type": "multiple-choice",
+      "options": [
+        "HeartWare HVAD",
+        "HeartMate II",
+        "HeartMate 3",
+        "TandemHeart"
+      ],
+      "correctIndex": 2,
+      "explanation": "The HeartMate 3 is the current standard centrifugal flow LVAD with an artificial pulse feature."
+    },
+    {
+      "id": "q5",
+      "question": "What connects the implanted pump to the external controller?",
+      "type": "multiple-choice",
+      "options": [
+        "Wireless Bluetooth signal",
+        "Power module cable",
+        "Driveline",
+        "Inflow cannula"
+      ],
+      "correctIndex": 2,
+      "explanation": "The driveline is the cable that exits your body through a small hole in the skin and connects the implanted pump to the external system controller."
+    }
+  ]
+}

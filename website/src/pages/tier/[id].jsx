@@ -1,11 +1,17 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useRouter } from 'next/router';
 import ModulePlayer from '../../components/ModulePlayer';
 
 const TierPage = () => {
-  const { id } = useParams();
+  const router = useRouter();
+  const { id } = router.query;
+
   // Load modules for this tier
   const modules = []; // Placeholder
+
+  if (!id) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div>

@@ -1,0 +1,157 @@
+.card {
+  border: 2px solid;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: white;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.card:focus {
+  outline: 2px solid #007bff;
+  outline-offset: 2px;
+}
+
+.cardHeader {
+  padding: 20px;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tierIcon {
+  font-size: 2.5em;
+  filter: brightness(1.2);
+}
+
+.tierBadge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 0.8em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.tierTitle {
+  margin: 0;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+.tierSubtitle {
+  margin: 5px 0 0 0;
+  opacity: 0.9;
+  font-size: 0.9em;
+}
+
+.cardBody {
+  padding: 20px;
+}
+
+.description {
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+  color: #555;
+}
+
+.audienceSection {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: 600;
+  color: #333;
+  margin-right: 10px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.tag {
+  border: 1px solid;
+  padding: 4px 8px;
+  border-radius: 16px;
+  font-size: 0.8em;
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.metaItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.metaIcon {
+  font-size: 1.1em;
+}
+
+.cardFooter {
+  border-top: 1px solid;
+  padding: 20px;
+  background: #f8f9fa;
+}
+
+.startButton {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: 600;
+  font-size: 1em;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.startButton:hover {
+  opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cardHeader {
+    padding: 15px;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .tierTitle {
+    font-size: 1.2em;
+  }
+
+  .cardBody {
+    padding: 15px;
+  }
+
+  .meta {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .cardFooter {
+    padding: 15px;
+  }
+}

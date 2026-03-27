@@ -1,0 +1,9 @@
+{
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
+  "/": "pages/index.js",
+  "/dashboard": "pages/dashboard.js",
+  "/tier/[id]": "pages/tier/[id].js",
+  "/tier/module/[moduleId]": "pages/tier/module/[moduleId].js",
+  "/_document": "pages/_document.js"
+}

@@ -1,7 +1,6 @@
 import React from 'react';
 import TierCard from '../components/TierCard';
 import Navigation from '../components/Navigation';
-import styles from '../styles/globals.css';
 
 const tiers = [
   {

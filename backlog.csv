@@ -1,0 +1,15 @@
+Sprint,Epic/Theme,User Story,Acceptance Criteria,Owner,Due Date,Status
+S1,Foundations & Discovery,As PM, finalize goals, success metrics, governance, and tiered personas.,Goals documented; success metrics defined; governance in place; four tiered personas created.,PM,2026-04-15,Draft
+S1,Foundations & Discovery,As CL, draft high-level IA and IA sketch.,IA draft with Home, Tier1, Tier2, Tier3, Tier4, Resources, About.,CL,2026-04-15,Draft
+S2,Content Strategy,Templates & Compliance,As CL, create standard content briefs templates for Tier 1–Tier 4.,Brief templates completed; MR/LCL workflows defined; Accessibility baseline documented.,CL,2026-04-30,Draft
+S2,Compliance,Workflows,As MR/LCL, define medical review and compliance workflows.,Review steps, sign-off criteria, and SLAs documented.,MR/LCL,2026-04-30,Draft
+S3,Tier 1 & 2 Content,As CL, produce Tier 1 patient-facing articles and Tier 2 nurse-facing modules.,Tier 1 draft articles; Tier 2 module drafts; 2–3 patient videos storyboarded.,CL,2026-05-31,Draft
+S4,Tier 3 & 4,Foundations,As CL, draft Tier 3 quick-reference sheets and Tier 4 primer content.,Tier 3 sheets; escalation workflow; Tier 4 overview ready.,CL,2026-06-15,Draft
+S5,Design & UX,Accessibility Prep,As UXD, finalize tiered navigation; complete WCAG AA pass plan.,IA finalized; search/filter strategy; accessibility plan documented.,UXD,2026-06-30,Draft
+S6,Pilot Setup & QA,As CM/QA, prepare pilot with clinics/patients; execute QA plan.,Pilot plan; consent; feedback survey; QA matrix.,CM/QA,2026-07-15,Draft
+S7,Post-Pilot Refinement,As PM, incorporate pilot feedback into content/UI.,Updated drafts; UI refinements.,PM,2026-07-31,Draft
+S8,Pre-Launch Freeze,As PM, lock content/design; finalize legal/medical approvals.,Content freeze; sign-offs; launch playbook ready.,PM,2026-08-15,Draft
+S9,Launch Readiness,As DAL, deploy analytics; publish Tier 1–Tier 3; plan Tier 4 rollout.,Live site; dashboards configured; Tier 4 modules scheduled.,DAL,2026-08-31,Draft
+S10,Post-Launch,As QA/CM, monitor usage; fix issues; begin Tier 4 content.,Issue backlog; Tier 4 content published.,QA/CM,2026-09-30,Draft
+S11,Iteration,As CL/MR, refresh Tier 1 content per guidelines; continue Tier 4.,Updated Tier 1 content; Tier 4 progress.,CL/MR,2026-11-15,Draft
+S12,Launch & Handover,As PM, handover to ops; finalize dashboards; 90-day plan.,Operational playbook; dashboards live.,PM,2026-12-01,Draft

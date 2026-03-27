@@ -1,0 +1,11 @@
+{
+  "data_sources": ["cms_events", "video_plays", "form_submissions", "pilot_surveys"],
+  "metrics": {
+    "engagement": ["sessions", "pages_per_session", "avg_session_duration"],
+    "learning": ["content_completion_rate", "quiz_scores", "video_watch_time"],
+    "usability": ["task_success_rate", "time_to_content"],
+    "impact": ["clinic_referrals", "patient_confidence_survey"]
+  },
+  "privacy": ["anonymize", "no_PII_in_analytics", "HIPAA-compliant handling"],
+  "dashboards": ["tier1_vs_tier4_usage", "device_model_coverage", "localization uptake"]
+}

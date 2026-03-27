@@ -1,0 +1,5 @@
+Node, Python, etc. - exclude local/dev artifacts
+node_modules/
+.env
+.DS_Store
+*.log

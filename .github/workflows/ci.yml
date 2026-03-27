@@ -1,0 +1,22 @@
+name: CI
+on:
+  push:
+    branches: [ main, '' ]
+  pull_request:
+    branches: [ '' ]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Markdown lint
+        run: |
+          npm -g i markdownlint-cli
+          markdownlint '**/*.md' || true
+      - name: JSON lint
+        run: |
+          for f in analytics/*.json; do
+            if [ -f "$f" ]; then
+              node -e "JSON.parse(require('fs').readFileSync('$f','utf8'))" || exit 1
+            fi
+          done

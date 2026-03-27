@@ -17,4 +17,157 @@ nav li {
   border: 1px solid #ccc;
   padding: 20px;
   margin: 10px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.tier-card .tier-icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.tier-card h3 {
+  margin: 10px 0;
+}
+
+.tier-card .tier-subtitle {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.tier-card .tier-description {
+  margin: 10px 0;
+}
+
+.tier-card .tier-meta {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+  font-size: 0.8em;
+}
+
+.tier-card .tier-audience {
+  font-size: 0.9em;
+  margin: 10px 0;
+}
+
+.tier-card button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 50px 0;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+}
+
+.heroContent {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.heroBadge {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.heroTitle {
+  font-size: 3em;
+  margin: 0 0 20px 0;
+}
+
+.heroSubtitle {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.heroStats {
+  display: flex;
+  gap: 30px;
+}
+
+.stat {
+  text-align: center;
+}
+
+.statNumber {
+  display: block;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.statLabel {
+  font-size: 0.9em;
+}
+
+.heroVisual {
+  flex: 1;
+  text-align: center;
+}
+
+.heartAnimation {
+  font-size: 5em;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.main {
+  padding: 50px 0;
+}
+
+.selectTierSection h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.sectionSubtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.tierGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.infoBanner {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.bannerContent h3 {
+  margin-top: 0;
+  color: #856404;
+}
+
+.bannerContent p {
+  margin-bottom: 0;
 }

@@ -1,0 +1,14 @@
+{
+  "title": "Advanced Hemodynamics",
+  "content": "In-depth hemodynamics for ICU/ED nurses.",
+  "sections": [
+    {
+      "heading": "Waveform Analysis",
+      "text": "Interpreting LVAD waveforms."
+    },
+    {
+      "heading": "Troubleshooting",
+      "text": "Addressing hemodynamic issues."
+    }
+  ]
+}

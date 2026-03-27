@@ -1,0 +1,14 @@
+{
+  "title": "Alarm Management",
+  "content": "Handling LVAD alarms in clinical settings.",
+  "sections": [
+    {
+      "heading": "Common Alarms",
+      "text": "Low battery, suction events, etc."
+    },
+    {
+      "heading": "Response Protocols",
+      "text": "Steps to take when alarms occur."
+    }
+  ]
+}

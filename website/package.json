@@ -1,0 +1,17 @@
+{
+  "name": "lvad-education-website",
+  "version": "1.0.0",
+  "description": "Educational website for LVAD patients and healthcare providers",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve public",
+    "build": "echo 'Build script placeholder'",
+    "test": "echo 'Test script placeholder'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^14.0.0"
+  },
+  "author": "LVAD Education Team",
+  "license": "MIT"
+}

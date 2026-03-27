@@ -11,7 +11,7 @@ governance (RACI), and a 90-day post-launch plan.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/your-org/LVAD_Education_Project.git
+git clone https://github.com/MCSEDU/LVAD_Education_Project.git
 cd LVAD_Education_Project
 ```
 

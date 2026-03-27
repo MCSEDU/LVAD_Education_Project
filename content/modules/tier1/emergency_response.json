@@ -1,0 +1,14 @@
+{
+  "title": "Emergency Response",
+  "content": "What to do in case of LVAD alarms or emergencies.",
+  "sections": [
+    {
+      "heading": "Alarm Sounds",
+      "text": "Different alarms indicate different issues."
+    },
+    {
+      "heading": "When to Call for Help",
+      "text": "Call emergency services immediately for certain alarms."
+    }
+  ]
+}

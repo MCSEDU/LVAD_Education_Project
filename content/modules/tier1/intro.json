@@ -1,0 +1,14 @@
+{
+  "title": "Introduction to LVAD",
+  "content": "Basic overview of Left Ventricular Assist Devices for patients and caregivers.",
+  "sections": [
+    {
+      "heading": "What is an LVAD?",
+      "text": "An LVAD is a mechanical pump that helps the heart circulate blood."
+    },
+    {
+      "heading": "Why is it needed?",
+      "text": "For patients with advanced heart failure."
+    }
+  ]
+}

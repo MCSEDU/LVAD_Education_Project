@@ -1,0 +1,14 @@
+{
+  "title": "Nursing Assessment",
+  "content": "Assessment protocols for LVAD patients.",
+  "sections": [
+    {
+      "heading": "Physical Assessment",
+      "text": "Check for signs of infection, thrombosis."
+    },
+    {
+      "heading": "Patient Education",
+      "text": "Reinforce self-care instructions."
+    }
+  ]
+}
